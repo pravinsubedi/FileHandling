@@ -41,7 +41,7 @@ public class Program {
            }
     }
     catch(FileNotFoundException ex){
-       System.out.println("cannot find file");
+       System.out.println("this file could not be found");
     }
     catch(IOException ioe){
         System.out.println("IOException");
